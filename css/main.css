@@ -5,3 +5,9 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+body {
+  font-family: minerva-modern,sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
