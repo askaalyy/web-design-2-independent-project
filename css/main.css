@@ -1,13 +1,24 @@
 html {
   box-sizing: border-box;
+  font-family: "minerva-modern",sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 1.5;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
-body {
-  font-family: minerva-modern,sans-serif;
-  font-weight: 700;
-  font-style: normal;
+.banner {
+  display: block;
+  width: 100%;
+  height:20 em;
+  background: #ccc;
+  background-size: cover;
+  background-position: center;
+}
+.nav {
+  justify-content: center;
+  style: none;
 }
