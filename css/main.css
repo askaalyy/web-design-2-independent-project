@@ -18,7 +18,29 @@ html {
   background-size: cover;
   background-position: center;
 }
-.nav {
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+
+}
+
+ul li {
+  list-style: none;
+
+}
+
+ul li a {
+  text-decoration: none;
+}
+
+.nav a {
+  text-decoration: none;
+}
+
+.h1 {
   justify-content: center;
-  style: none;
 }
