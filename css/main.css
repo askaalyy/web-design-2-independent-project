@@ -1,9 +1,19 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
 html {
   box-sizing: border-box;
   font-family: "minerva-modern",sans-serif;
   font-weight: 700;
   font-style: normal;
   line-height: 1.5;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -text-size-adjust: 100%;
 }
 
 *, *::before, *::after {
@@ -38,7 +48,7 @@ header img {
 }
 
 * {
-  margin: 0.1;
+  margin: .1;
   padding: 0;
   text-decoration: none;
 }
