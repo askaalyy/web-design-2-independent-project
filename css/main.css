@@ -9,10 +9,10 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
-.banner {
+header img {
   display: block;
   width: 100%;
-  height: 20em;
+  height: 60em;
   background: #ccc;
   background-size: cover;
   background-position: center;
@@ -58,17 +58,36 @@ section {
   width: 100%;
   height: 100;
   background-color: #eee;
-
+  display: flex;
+  justify-content: center;
 }
 
+section img {
+  width: 10%;
+  height: 10%;
+}
 
-main {
-
+main img {
+  display: block;
+  width: 100%;
+  height: 60em;
+  background: #ccc;
+  background-size: cover;
+  background-position: center;
 }
 
 footer {
   width: 100%;
   height: 50;
   background-color: #eee;
+}
 
+footer figure {
+  text-align: right;
+}
+
+footer img {
+  width: 3%;
+  height: 3%;
+  float: right;
 }
