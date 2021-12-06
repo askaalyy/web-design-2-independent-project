@@ -9,6 +9,26 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+.skip-links {
+  margin: 0;
+  padding: 0;
+}
+
+.skip-links a {
+  position: absolute;
+  top: -3em;
+  background-color: #000;
+  color: #fff;
+  padding: 0.75em 0.75em;
+  font-weight: bold;
+}
+
+skip-links a:focus {
+  top: 0;
+
+
+}
 header img {
   display: block;
   width: 100%;
@@ -74,6 +94,15 @@ main img {
   background: #ccc;
   background-size: cover;
   background-position: center;
+}
+
+main h2  {
+  text-align: center;
+}
+
+header a {
+  text-align: center;
+
 }
 
 footer {
