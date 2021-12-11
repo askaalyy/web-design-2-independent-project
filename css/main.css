@@ -40,14 +40,13 @@ skip-links a:focus {
 header img {
   display: block;
   width: 100%;
-  height: 60em;
+  height: 100%;
   background: #ccc;
   background-size: cover;
   background-position: center;
 }
 
 * {
-  margin: .1;
   padding: 0;
   text-decoration: none;
 }
@@ -87,7 +86,12 @@ header a:focus {
   color: brown;
 }
 
-
+.button {
+  padding: 0.5em 0.75em;
+  font-weight: bold;
+  background-color: black;
+  color: #fff;
+}
 section {
   width: 100%;
   height: 100;
@@ -101,8 +105,11 @@ section img {
   height: 10%;
 }
 
-section figure {
-
+.icon-one{
+  height: 4em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 main img {
