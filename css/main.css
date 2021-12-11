@@ -51,13 +51,17 @@ header img {
   text-decoration: none;
 }
 
-ul {
- text-align: center;
+.navigation {
+  position: absolute;
+  color: #fff;
+
 }
+
 
 ul li {
   list-style: none;
   display: inline-block;
+
 }
 
 ul li a {
@@ -65,10 +69,13 @@ ul li a {
   text-decoration: none;
   font-size: 1.3rem;
   padding: 0 20px;
+  color: #fff;
+
+
 }
 
 ul li a:hover{
-  color: brown;
+  color: #DDD6CD;
 }
 
 header {
@@ -83,8 +90,9 @@ header a :last-of-type{
   color: #fff;
 }
 
-header a:focus {
-  color: brown;
+.button:hover {
+  background-color: #DDD6CD;
+  transition: ease-out .5s;
 }
 
 .button {
@@ -155,22 +163,22 @@ main {
   color: #fff;
  }
 
- main a:focus {
-   color: brown;
+ main a:hover {
+   background-color: #DDD6CD;
+   transition: ease-out .5s;
  }
 
 footer {
   width: 100%;
   height: 50;
   background-color: #DDD6CD;
-}
-
-footer figure {
-  text-align: right;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
 }
 
 footer img {
   width: 3%;
   height: 3%;
-  float: right;
 }
