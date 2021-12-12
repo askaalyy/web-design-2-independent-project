@@ -37,6 +37,7 @@ skip-links a:focus {
   top: 0;
 
 }
+
 header img {
   display: block;
   width: 100%;
@@ -193,6 +194,7 @@ main a:hover {
   font-weight: bold;
   font-size: 1.3em;
 }
+
 .button-4 {
   padding: 0.4em 5em;
   font-weight: bold;
