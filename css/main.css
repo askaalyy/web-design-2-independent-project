@@ -186,9 +186,13 @@ main a:hover {
   "stipple fact-sheet"
   "social Infographic"
 
-
 }
 
+.work-grid figure {
+  color: #9B8579;
+  font-weight: bold;
+  font-size: 1.3em;
+}
 .button-4 {
   padding: 0.4em 5em;
   font-weight: bold;
@@ -215,7 +219,3 @@ footer img {
   width: 3%;
   height: 3%;
 }
-
-height: 35px;
-margin-left: 700px;
-margin-right: 750px;
