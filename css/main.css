@@ -178,6 +178,8 @@ main a:hover {
 }
 
 .work-grid {
+  margin-right: 12em;
+
   display: grid;
   grid-template-areas:
     "stipple fact-sheet"
@@ -202,9 +204,6 @@ main a:hover {
   transition: ease-out .5s;
 }
 
-.work-grid {
-
-}
 .fact-sheet {
   width: 82%;
   height: 82%;
@@ -215,7 +214,7 @@ main a:hover {
   height: 67%;
 }
 
-.infographic{
+.infographic {
   width: 67%;
   height: 67%;
 }
