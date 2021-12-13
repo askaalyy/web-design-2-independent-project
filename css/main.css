@@ -19,12 +19,12 @@ html {
   box-sizing: inherit;
 }
 
-.skip-links {
+.skiplinks {
   margin: 0;
   padding: 0;
 }
 
-.skip-links a {
+.skiplinks a {
   top: -3em;
   color: #fff;
   background-color: #beb2af;
@@ -32,7 +32,7 @@ html {
   font-weight: bold;
 }
 
-skip-links a:focus {
+.skiplinks a:focus {
   top: 0;
 }
 
