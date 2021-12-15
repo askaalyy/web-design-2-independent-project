@@ -50,8 +50,11 @@ header img {
   text-decoration: none;
 }
 
-.navigation {
+.logo {
+  width: 2.5%;
+  height: auto;
   position: absolute;
+  right: 850px;
 }
 
 ul li {
@@ -72,6 +75,7 @@ ul li a {
 .navigation {
   border-top: 2px solid white;
   width: 100%;
+  position: absolute;
 }
 
 ul li a:hover {
